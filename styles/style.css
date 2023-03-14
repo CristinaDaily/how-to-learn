@@ -38,8 +38,8 @@
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
-  position: absolute;
-  left: 64px;
+  align-items: center;
+  margin-left: 64px;
   z-index: 2;
 }
 
@@ -137,12 +137,11 @@
 
 .table {
   display: flex;
-  flex-wrap: wrap;
-
-  margin: 0 auto;
-
   width: 1100px;
   justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 .table__cell {
   width: 250px;
@@ -248,6 +247,7 @@
 .footer__columns {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   margin: 0 auto;
   width: 90%;
   justify-content: space-between;
@@ -283,10 +283,7 @@
   background-image: url(../images/logo_place_footer.svg);
 }
 .footer__autor {
-  position: absolute;
-  left: 0;
-  bottom: 18px;
-  margin: 18px 0 0;
+  margin: 18px 0;
   color: white;
   font-size: 18px;
   line-height: 25px;
@@ -295,6 +292,8 @@
 .footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .footer__social-icon {
   height: 16px;

@@ -1,8 +1,3 @@
-@import url(../two-columns/__brief/two-columns__brief.css);
-@import url(../two-columns/__main-text/two-columns__main-text.css);
-@import url(../two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../two-columns/__span-accen/two-columns__span-accen.css);
-
 .two-columns {
   display: flex;
   margin: 0 auto;

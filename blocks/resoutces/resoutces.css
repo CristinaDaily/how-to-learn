@@ -1,0 +1,8 @@
+@import url(../resoutces/__logo-zone/resoutces__logo-zone.css);
+@import url(../resoutces/__logo/resoutces__logo.css);
+
+.resources {
+  margin-top: 100px;
+  margin-bottom: 217px;
+  box-sizing: border-box;
+}
